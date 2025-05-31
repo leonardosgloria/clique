@@ -297,6 +297,45 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
+
+        /* Author Section */
+        .author {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .author-content {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 40px;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .author-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-image: url('eu.png');
+            background-size: cover;
+            background-position: center;
+            border: 4px solid #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .author-bio h3 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .author-bio p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
         /* Demo Section */
         .demo {
             padding: 80px 0;
@@ -817,6 +856,27 @@
         </div>
     </section>
 
+    <!-- Author Section -->
+<section class="author">
+  <div class="container">
+    <div class="author-content">
+      <div class="author-photo"></div>
+      <div class="author-bio">
+        <h3>Leonardo Gloria</h3>
+        <p>Atualmente, atua como <strong>Senior Research Scientist</strong>, com projetos de estatísticas avançadas, análise genética de ponta e abordagens Frequentistas e Bayesianas.</p>
+        <p>Com mais de <strong>6 anos de experiência</strong> como professor universitário, Leonardo possui mestrado pela UENF em modelos lineares e não lineares mistos e doutorado em redes neurais artificiais pela UFV, e pós-doutorado na Purdue University</p>
+        <p>Tem expertise internacional com publicações em periódicos de alto fator de impacto.</p>
+        <p><strong>Uma trajetória dedicada a transformar a forma como você aprende e aplica R na prática.</strong></p>
+        <p>Veja todas as suas publicações no
+          <a href="https://scholar.google.com/citations?user=bYb0p3UAAAAJ&hl=pt" target="_blank" rel="noopener noreferrer">
+             📖 Google Scholar
+          </a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- Pricing Section -->
     <section class="pricing" id="pricing">
         <div class="container">
@@ -839,7 +899,7 @@
 
                 <p class="pricing-note">Nota: Suporta arquivos Excel de até 50MB, equivalente a cerca de 1 milhão de linhas, dependendo da complexidade dos dados.</p>
 
-                <a href="https://pay.hotmart.com/W99950333N" class="cta-button-large">
+                <a href="https://pay.hotmart.com/Y86182554T?off=8bd2bu3a&_hi=eyJjaWQiOiIxNzE5Njc2MzU4MzUxNjQ0MjI4MTkzNTA2MzYzMTAwIiwiYmlkIjoiMTcxOTY3NjM1ODM1MTY0NDIyODE5MzUwNjM5Njk0MiIsInNpZCI6ImU1ZTE1ZjBmMDdjMDQ5ZWQ4NTc5MTE1NDU0NmYwMjViIn0=.1748196123514&bid=1748196125081" class="cta-button-large">
                     <i class="fas fa-credit-card"></i> Assinar Agora
                 </a>
 
@@ -885,16 +945,13 @@
                 <p>Você pode carregar arquivos .xlsx para até 50MB de Excel, equivalente a cerca de 1 milhão de linhas, dependendo da complexidade dos dados.</p>
             </details>
 
-            <details class="fade-in">
-                <summary><i class="fas fa-check"></i> Posso cancelar?</summary>
-                <p>Você pode cancelar a qualquer momento, e oferecemos 14 dias grátis para testar a plataforma.</p>
-            </details>
-
             <div class="cta-footer fade-in">
                 <a href="https://pay.hotmart.com/W99950333N" class="cta-button"><i class="fas fa-mouse-pointer"></i> Assinar agora</a>
             </div>
         </div>
     </section>
+
+
 
     <!-- Testimonials -->
     <section class="testimonials">
